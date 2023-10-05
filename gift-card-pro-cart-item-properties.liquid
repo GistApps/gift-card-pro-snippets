@@ -45,7 +45,7 @@
       {{ translation_key | t }}
     {% endcapture %}
 
-    {% if dynamic_translation contains "translation missing:" %}
+    {% if dynamic_translation contains "ranslation missing:" %}
       {% assign translation_name = sentence | capitalize %}
     {% else %}
       {% assign translation_name = dynamic_translation %}
