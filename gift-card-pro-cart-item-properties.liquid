@@ -15,7 +15,7 @@
   {{ "gift-card-pro.cart.card_details" | t }}
 {% endcapture %}
 <span class="gcp__cart-properties">
-  {% if gc_details contains "translation missing:" %}
+  {% if gc_details contains "ranslation missing:" %}
     <span data-gcp-trans="cart.card_details">Gift Card Details:</span><br/>
   {% else %}
     <span data-gcp-trans="cart.card_details">{{ gc_details }}</span><br/>
